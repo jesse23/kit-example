@@ -1,0 +1,16 @@
+{
+  "name": "fancy",
+  "version": "1.0.0",
+  "description": "mono repo example for a big app",
+  "main": "index.js",
+  "workspaces": [
+    "apps/*",
+    "libs/*",
+    "plugins/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesse23",
+  "license": "ISC"
+}
